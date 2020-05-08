@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+  test:
+    build:
+      context: .
+      args:
+        PIP_INDEX_URL: ${PIP_INDEX_URL-}
+        PIP_TRUSTED_HOST: ${PIP_TRUSTED_HOST-}

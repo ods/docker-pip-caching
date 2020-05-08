@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>net.devpi</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/ods/.local/bin/devpi-server</string>
+		<string>--host</string>
+		<string>10.0.31.41</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardOutPath</key>
+	<string>/Users/ods/.devpi/server/log.txt</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/ods/.devpi/server/log.txt</string>
+</dict>
+</plist>
